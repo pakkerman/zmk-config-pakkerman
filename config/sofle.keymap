@@ -82,11 +82,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F1      &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                    &kp F7  &kp F8            &kp F9             &kp F10    &kp F11    &kp F12
-&trans      &trans  &trans  &trans  &trans  &trans                    &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans     &trans     &trans
-&trans      &trans  &trans  &trans  &trans  &trans                    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp EQUAL  &trans
-&kp ESCAPE  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans             &trans     &kp BSLH   &trans
-                    &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans             &trans
+&kp F1      &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                    &kp F7  &kp F8  &kp F9  &kp F10    &kp F11    &kp F12
+&trans      &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans     &trans     &trans
+&trans      &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &kp MINUS  &kp EQUAL  &trans
+&kp ESCAPE  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans     &kp BSLH   &trans
+                    &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp F12 F11>, <&inc_dec_kp PG_UP PG_DN>;
@@ -103,11 +103,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                       &trans  &trans        &trans        &trans        &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                       &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                       &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &kp NUMBER_1  &kt NUMBER_2  &kp NUMBER_3  &trans  &trans
-                &trans  &trans  &trans  &trans  &kp SPACE    &trans  &trans  &trans        &kp NUMBER_0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans                &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &kp LBKT              &kp RBKT               &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
