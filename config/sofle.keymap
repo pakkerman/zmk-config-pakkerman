@@ -65,7 +65,7 @@
 &kp TAB        &kp Q               &kp W           &kp E               &kp R             &kp T                           &kp Y   &kp U              &kp I                &kp O           &kp P                   &kp EQUAL
 &kp BACKSPACE  &mt LEFT_COMMAND A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G                           &kp H   &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt LEFT_ALT L  &mt RIGHT_COMMAND SEMI  &kp SQT
 &kp LSHFT      &kp Z               &kp X           &kp C               &kp V             &kp B   &tog 5       &none      &kp N   &kp M              &kp COMMA            &kp DOT         &kp FSLH                &kp BACKSLASH
-                                   &kp LCTRL       &kp LALT            &kp LEFT_COMMAND  &mo 1   &kp ENTER    &kp SPACE  &mo 2   &mo 6              &kp ESCAPE           &trans
+                                   &kp LCTRL       &kp LALT            &kp LEFT_COMMAND  &mo 1   &kp ENTER    &kp SPACE  &mo 2   &kp RIGHT_ALT      &kp ESCAPE           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -148,17 +148,7 @@
 &kp TAB        &kp Q   &kp W      &kp E     &kp R     &kp T                            &kp Y   &kp U   &kp I      &kp O    &kp P     &kp EQUAL
 &kp BACKSPACE  &kp A   &kp S      &kp D     &kp F     &kp G                            &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT      &kp Z   &kp X      &kp C     &kp V     &kp B      &trans     &trans     &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                       &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE  &kp RET    &kp SPACE  &trans  &mo 6   &trans     &trans
-            >;
-        };
-
-        movement {
-            bindings = <
-&trans  &trans  &trans          &trans          &trans           &trans                    &kp RA(N5)  &kp RA(N6)      &kp RA(N7)      &kp RA(N8)       &kp RA(N0)  &trans
-&trans  &trans  &mkp MB1        &mmv MOVE_UP    &mkp RCLK        &trans                    &trans      &kp RA(U)       &kp UP_ARROW    &kp RA(O)        &trans      &trans
-&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans                    &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans      &trans
-&trans  &trans  &trans          &trans          &trans           &trans  &trans    &trans  &trans      &trans          &trans          &trans           &trans      &trans
-                &trans          &trans          &trans           &trans  &trans    &trans  &trans      &trans          &trans          &trans
+                       &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE  &kp RET    &kp SPACE  &trans  &trans  &trans     &trans
             >;
         };
     };
